@@ -1,0 +1,137 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #f5f5f5;
+  background-image: url(images/night5.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 1200px 540px;
+}
+
+.home{
+  margin-bottom: 40%;
+  margin-left: 12.5%;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+  height: 540px;
+  border: 8px solid #F5F5F5;
+  margin-left: 20%;
+}
+
+.form-signin .checkbox {
+  font-weight: 400;  
+}
+
+.remember{
+  color: white;
+}
+
+
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-radius: 2;
+  margin-top: 4rem;
+  
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-radius: 2;
+}
+
+#inputEmail{
+  margin-bottom: 1rem;
+}
+
+#inputPassword{
+  color: white;
+  margin-bottom: 4.5rem;
+}
+
+#inputEmail{
+  color: white;
+}
+
+/*btn sign in*/
+.btn{
+  background-color: black;
+  border: 1px solid white;
+  width: 40%;
+  margin-left: 30%;
+  margin-top: 10%;
+  color: white;
+}
+
+.btn2{
+  background-color: black;
+  border: 8px solid black;
+}
+
+
+/*----change field color----*/
+#inputEmail, #inputPassword{
+    background-color: black;
+}
+
+
+/*redifine focus*/
+#inputEmail:focus, #inputPassword:focus{
+    background-color: black;
+}
+
+
+/*-----animation logo----*/
+
+.angrytext {
+ -webkit-animation: bounce-in 2s ease 1s infinite normal ;
+ animation: bounce-in 2s ease 1s infinite normal ;
+}
+
+@-webkit-keyframes bounce-in {
+  0%{
+  opacity: 0;
+  -webkit-transform: scale(.9);
+  transform: scale(.3);
+  }
+  1%{
+  opacity: 1;
+  -webkit-transform: scale(1.0);
+  transform: scale(1.0);
+  }
+}
+
+@keyframes bounce-in {
+  0%{
+  opacity: 0;
+  transform: scale(.9);
+  }
+  1%{
+  opacity: 1;
+  transform: scale(1.0);
+  }
+}
